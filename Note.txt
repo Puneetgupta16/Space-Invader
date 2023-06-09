@@ -1,0 +1,33 @@
+1.  When working on a game create a main loop that will take care of all the important stuff like,
+    handling collisions, calls for things to be drawn on the screen, when to quit the game, etc.
+    NOTE:- Main loop will be in the main function
+
+2.  pygame.QUIT is the method that will check if the user closes the window.
+
+3. PYGAME COORDINATE SYSTEM:
+        in pygame 0,0 is actually at the top left corner of the window.
+        The same goes for drawing the objects
+        
+4. To Draw Text on the screen :
+	First thing is to draw a font. We create a font object and then use that font object to actually render the text on the screen.
+	We will turn the text into a surface and then draw that onto the screen.
+
+5. Character:
+	We have ships that will be moving on the screen for the characters. So we can create an abstract class(Class from which we are gonna inherit some properties
+	for all the ships).
+
+6. MOVEMENT:
+	To Move the object on the screen we can use the event method from the pygame library but the issue with that is it only registers one key at a time.
+	If we press multiple keys, say up and left keys, it won't work!
+	We are using the "pygame.key.get_pressed()" method. What it does is it returns a dictionary of how many keys are pressed at the time.
+	
+7. MASK:
+	Mask will enable us to make pixel perfect collision: mask tells where a pixel is in the image.
+
+8. Enemy Ship movement:
+	What we are gonna do is to spawn all the enemy ships at once. But to create an effect that they are commig in diffferent time we will spawn them
+	above the player screen at random height(random negetive y values).
+
+9.
+
+
