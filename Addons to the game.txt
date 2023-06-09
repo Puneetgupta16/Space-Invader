@@ -1,0 +1,7 @@
+New Add ons Ideas:
+	- powerups:
+		- Increase health
+		- freeze enemies
+		- enemies do not shoot
+		- 
+		-  
